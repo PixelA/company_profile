@@ -1,4 +1,7 @@
+import 'package:company_profile/repo/repo.dart';
+import 'package:company_profile/ui/company_details_page.dart';
 import 'package:flutter/material.dart';
+
 
 class CompanyDetailsAnimator extends StatefulWidget {
   @override
@@ -21,16 +24,13 @@ class _CompanyDetailsAnimatorState extends State<CompanyDetailsAnimator>
 
   @override
   void dispose() {
-    _controller.dispose();
     super.dispose();
+    _controller.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text("Hello Animation!"),
-      ),
-    );
+    return new CompanyDetailsPage(
+      company: RepoData.bawp, controller: _controller,);
   }
 }
