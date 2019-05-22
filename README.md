@@ -2,15 +2,5 @@
 
 A company profile app
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+A demo app to show off animations and weblinks
+<img width="874" alt="Screen Shot 2019-05-21 at 11 37 29 PM" src="https://user-images.githubusercontent.com/7621719/58145844-ae353b80-7c21-11e9-9330-49436258bc30.png">
