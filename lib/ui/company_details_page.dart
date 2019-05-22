@@ -93,19 +93,7 @@ class CompanyDetailsPage extends StatelessWidget {
           _createAboutCompany(),
           _createCourseScroller()
         ],
-        //Widget _createContent() {
-        //return new SingleChildScrollView(
-        /*child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            _createLogoAvatar(),
-            _createAboutCompany(),
-            _createCourseScroller()
-          ],
-        ),*/
-        // );
-        //},
-        //],
+
       ),
     );
   }
