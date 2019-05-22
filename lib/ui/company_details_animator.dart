@@ -31,6 +31,6 @@ class _CompanyDetailsAnimatorState extends State<CompanyDetailsAnimator>
   @override
   Widget build(BuildContext context) {
     return new CompanyDetailsPage(
-      company: RepoData.bawp, controller: _controller,);
+        company: RepoData.bawp, controller: _controller);
   }
 }

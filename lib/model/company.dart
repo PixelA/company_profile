@@ -8,9 +8,11 @@ class Company {
     @required this.backdropPhoto,
     @required this.about,
     @required this.courses,
+    @required this.president
   });
 
   final String name;
+  final String president;
   final String location;
   final String logo;
   final String backdropPhoto;

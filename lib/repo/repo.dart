@@ -2,7 +2,7 @@ import 'package:company_profile/model/company.dart';
 
 class RepoData {
   static final Company bawp = new Company(
-      name: 'Pixeldust Software app portofolio',
+      name: 'Pixeldust Software App Portfolio',
       about:
           'PixelDust Software is all about creating mobile apps that run on mobile devices that people have come to love.  Are you ready to bring your company to the mobile masses?  If you don’t, someone else will.',
       backdropPhoto: 'assets/creator.jpg',
@@ -22,7 +22,7 @@ class RepoData {
             url: 'https://flutter.dev/'),
         new Course(
             title: 'Web Sites',
-            thumbnail: 'java9_course.png',
+            thumbnail: 'assets/android_portfolio.png',
             url: 'https://codepen.io/'),
         new Course(
             title: 'Java Design Patterns',
@@ -31,5 +31,6 @@ class RepoData {
                 'https://www.udemy.com/java-design-patterns-the-complete-masterclass/?couponCode=BAWP-SITE-COURSES-15'),
       ],
       location: 'Scranton, PA',
-      logo: 'logo.png');
+      logo: 'logo.png',
+      president: 'Asherlee Levy');
 }
